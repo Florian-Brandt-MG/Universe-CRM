@@ -26,7 +26,8 @@ $universe = new UniverseCRM\Crypt\Universe;
         </div>
     </div>
     <div class="nav">
-        <a class="tg left" data-tg=".mb" href="#" class="left"><i class="fas fa-bars"></i></a>
+        <a href="#" data-tg="aside" class="toggle-aside tg left"><i class="fas fa-street-view"></i></a>
+        <a class="toggle-mobile tg left" data-tg=".mb" href="#" class="left"><i class="fas fa-bars"></i></a>
         <a href="#"><i class="fas fa-sign-out-alt"></i><span>Abmelden</span></a>
     </div>
     <div class="row mb">
@@ -39,7 +40,7 @@ $universe = new UniverseCRM\Crypt\Universe;
         <a href="#"><i class="fas fa-cog"></i><span>Einstellungen</span></a>
     </div>
 </header>
-<aside>
+<aside class="toggled">
 
 </aside>
 

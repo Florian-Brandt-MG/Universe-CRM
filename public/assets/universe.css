@@ -37,6 +37,20 @@ html, body {
         display: block;
         font-size: 21px;
         line-height: 65px; }
+    @media only screen and (max-width: 680px) {
+      html header div.branding, body header div.branding {
+        max-width: 0;
+        overflow: hidden;
+        display: none;
+        visibility: hidden; }
+      html header div.nav a span, body header div.nav a span {
+        max-width: 0;
+        overflow: hidden;
+        display: none;
+        visibility: hidden; }
+      html header div.nav, body header div.nav {
+        width: 100% !important;
+        max-width: 1170px !important; } }
     html header div.nav, body header div.nav {
       display: block;
       width: calc(100% - 125px);
@@ -139,5 +153,13 @@ html, body {
 
 ::selection {
   background-color: #4c6ef5; }
+
+@media only screen and (min-width: 680px) {
+  .toggle-mobile {
+    visibility: hidden;
+    opacity: 0;
+    overflow: hidden;
+    max-width: 0;
+    display: none; } }
 
 /*# sourceMappingURL=universe.css.map */
